@@ -41,7 +41,7 @@ body{
     height:50px;
     border-radius:50%;
     object-fit:cover;
-    margin-left: 0.3cm;
+    margin-left:0.001cm;
 }
 
 
@@ -168,6 +168,10 @@ display:none;
 
 .slide.active{
 display:block;
+}
+.slides{
+display:flex;
+transition:transform 0.5s ease;
 }
 
 .footer {
