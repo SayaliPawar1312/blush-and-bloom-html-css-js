@@ -17,3 +17,20 @@ body {
     background-color: #f8c8dc;
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d63384;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+}
