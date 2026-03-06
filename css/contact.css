@@ -78,7 +78,19 @@ body {
     background-color: #b0256a;
 }
 
+header{
+    background-color: #f1a8c6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+}
 
+.container{
+    width: 60%;
+    margin: auto;
+    background: white;
+}
 
 .footer {
     background-color: #f8c8dc;   
