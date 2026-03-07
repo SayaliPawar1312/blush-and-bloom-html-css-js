@@ -61,7 +61,9 @@ font-weight:bold;
 }
 
 button{
-background:#ff6f91;
+background-color: #d63384;
+border: 1px solid #d63384;
+color: #d63384;
 color:white;
 border:none;
 padding:10px;
@@ -70,5 +72,23 @@ cursor:pointer;
 }
 
 button:hover{
-background:#ff3d6d;
+background-color: #b0256a;
+color: white;
+transform:scale(1.05);
+box-shadow:0 5px 10px rgba(0,0,0,0.2)
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+
+.card:hover{
+transform: translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
 }
