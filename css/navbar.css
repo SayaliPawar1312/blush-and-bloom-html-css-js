@@ -9,6 +9,23 @@ body {
     background-color: #fff8fb;
 }
 
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d63384;
+    
+}
+body{
+    margin:0;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,12 +35,19 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
+.logo{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-left:0.001cm;
+}
+
 .nav-left{
     display:flex;
     align-items:center;
     gap:10px;
 }
-
 
 .logo{
     width:50px;
@@ -35,6 +59,18 @@ body {
 .brand{
     font-family:serif;
     color:#d63384;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
 }
 
 
@@ -105,4 +141,8 @@ body {
     margin-top: 10px;
     font-size: 18px;
     color: #555;
+}
+
+.hero {
+    flex: 1;
 }
