@@ -312,9 +312,6 @@ body {
     border: 1px solid #eee;
 }
 
-.concern-card:hover {
-    transform: translateY(-5px);
-}
 
 .card-content {
     padding: 20px;
