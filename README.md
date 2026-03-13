@@ -59,7 +59,7 @@ Academic Mini Project – Web Development
 
 ## 👩‍💻 Contributors
 
-<p align="center">
+<p align="left">
 
 <img src="images/saee.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
 <img src="images/rutu.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
