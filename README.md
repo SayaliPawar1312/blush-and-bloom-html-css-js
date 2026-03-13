@@ -68,6 +68,6 @@ Academic Mini Project – Web Development
 <img src="images/nisha.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
 <img src="images/supriya.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
 <img src="images/vaishnavi.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
-<img src="images/nisha.jpg" width="90" height="90" style="border-radius:50%; object-fit:cover;">
+<img src="images/poonam.png" width="90" height="90" style="border-radius:50%; object-fit:cover;">
 
 </p>
