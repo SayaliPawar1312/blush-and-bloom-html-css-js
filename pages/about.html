@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/toggle.css"> 
+    <link rel="stylesheet" href="../css/toggle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="icon" href="../images/web.logo.png" type="image-logo">
 </head>
@@ -66,7 +66,7 @@
                     solutions.
                     Blush & Bloom is more than just a brand; it's a community dedicated to helping you bloom into your
                     best
-                    self.
+                    self...
                 </p>
             </div>
         </div>
@@ -95,7 +95,7 @@
                     dedication to creating products that make a real difference in people's lives, and we are
                     excited to
                     continue
-                    this journey with you as we help you bloom into your best self.
+                    this journey with you as we help you bloom into your best self...
                 </p>
             </div>
             <div class="about-image">
@@ -124,16 +124,55 @@
                     positive
                     relationship with your skin. We believe that everyone deserves to feel beautiful in their own skin,
                     and we are here to support you every step of the way with products that deliver real results and
-                    promote overall skin health..
+                    promote overall skin health...
                 </p>
             </div>
         </div>
     </div>
-
+    <div class="team-section">
+        <h2>The People Behind Our Success
+        </h2>
+    </div>
     <div class="img-container">
-
+        <span class="btn-slide btn-left" onclick="slideLeft()">&lt;</span>
+        <img src="../images/saee.jpg" alt="Team Image" class="main-img" id="mainImage">
+        <span class="btn-slide btn-right" onclick="slideRight()">&gt;</span>
     </div>
 
+    <script>
+        const IMAGES = [
+            "../images/saee.jpg",
+            "../images/diksha.jpg",
+            "../images/vaishnavi.jpg",
+            "../images/supriya.jpg",
+            "../images/rutu.jpg",
+            "../images/poonam.jpeg",
+            "../images/nisha.jpg",
+            "../images/namrata.jpg",
+        ];
+
+        let currentIndex = 0;
+
+        function showCurrentIndexImage() {
+            document.getElementById("mainImage").src = IMAGES[currentIndex];
+        }
+
+        function slideLeft() {
+            currentIndex = (currentIndex - 1 + IMAGES.length) % IMAGES.length;
+            showCurrentIndexImage();
+        }
+
+        function slideRight() {
+            currentIndex = (currentIndex + 1) % IMAGES.length;
+            showCurrentIndexImage();
+        }
+
+        window.onload = showCurrentIndexImage;
+    </script>
+    <div class="team-section">
+        <p>Meet the talented individuals who make Blush & Bloom possible. </p>
+    </div>
+    <br><br>
     <footer class="footer">
 
         <div class="footer-container">
@@ -148,7 +187,7 @@
                 <p>
                     Blush & Bloom is your trusted skincare partner,
                     helping you glow naturally with safe, effective
-                    and dermatologist-inspired products....
+                    and dermatologist-inspired products...
                 </p>
 
                 <div class="social-icons">
@@ -159,7 +198,6 @@
                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
-
 
             <div class="footer-col">
                 <h3>Quick Links</h3>
